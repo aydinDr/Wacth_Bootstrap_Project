@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.rslide {
+    height: 600px;
+}
+
+body {
+    padding-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hakkimizda {
+    background-color: rgb(208, 233, 236);
+}
+
+.ayrac {
+    border: none;
+    border-top: 3px solid black;
+    max-width: 300px;
+    margin: 25px auto;
+    opacity: 0.9;
+
+}
+
+.ikoyu {
+    color: black;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid rgb(208, 233, 236);
+    background-color: rgb(208, 233, 236);
+}
+
+.cards {
+    display: flex;
+
+    gap: 25px;
+    padding: 0 50px;
+}
+
+.magaza {
+    background-color: rgb(206, 180, 230);
+}
+
+.iacik {
+
+    color: black;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid  rgb(206, 180, 230);
+    background-color: rgb(206, 180, 230);
+
+}
+.resim:active{
+    transition: all .3s ease;
+}
+.resim:hover{
+    opacity: .7;
+    transition: all .3s ease;
+    cursor: pointer;
+    scale: 1.3;
+}
+
+.galeri {
+    background-color: rgb(208, 233, 236);
+}
+.iletisim {
+    background-color: rgb(206, 180, 230);
+}
+.figure{
+ width: 150px;
+}
+.figure:hover{
+    opacity: .7;
+}
